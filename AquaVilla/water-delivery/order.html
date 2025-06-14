@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Water | AquaVibe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body> <nav>
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a>
+</nav>
+
+  <div class="form-container">
+    <h2>🚚 Order Fresh Water</h2>
+    <form id="orderForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <select id="area" required>
+        <option value="">Select Area</option>
+        <option>Zimmerman</option>
+        <option>Roysambu</option>
+        <option>Mirema</option>
+      </select>
+      <select id="quantity" required>
+        <option value="">Select Quantity</option>
+        <option value="5">5L - Ksh 40</option>
+        <option value="10">10L - Ksh 80</option>
+        <option value="20">20L - Ksh 160</option>
+      </select>
+      <input type="tel" id="mpesa" placeholder="M-Pesa Number" required />
+      <button type="submit" class="btn">Pay & Confirm</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
