@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Receipt | AquaVibe Water</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="receipt-container">
     <h2>✅ Payment Successful</h2>
     <div id="receiptDetails"></div>
-    <a href="index.html" class="btn">Back to Home</a>
+    <a href="index.html" class="btn">Back to Homepage</a>
   </div>
 
   <script>
@@ -22,8 +22,7 @@
         <p>Quantity: ${order.quantity}L</p>
         <p>Delivery: Ksh 30</p>
         <p>Total: Ksh ${Number(order.quantity) * 10 + 30}</p>
-        <p>Sent to M-Pesa: ${order.mpesa}</p>
-      `;
+        <p>Sent to M-Pesa: ${order.mpesa}</p> `;
     }
   </script>
 </body>
