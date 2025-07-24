@@ -1,2 +1,2 @@
 # AquaVilla-Water
-Online Water-delivery website
+An Online water-delivery website that allows users to order fresh water and get it delivered to their doorstep.
